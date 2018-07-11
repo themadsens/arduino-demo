@@ -1,0 +1,6 @@
+[submodule "Arduino-Makefile"]
+	path = Arduino-Makefile
+	url = https://github.com/sudar/Arduino-Makefile.git
+[submodule "libraries/max7219"]
+	path = libraries/max7219
+	url = https://github.com/riyas-org/max7219.git
