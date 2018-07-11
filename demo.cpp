@@ -115,8 +115,10 @@ char string1[] = "- Hello world!   ";  // Scrolling Text
 
 
 void _setup(){
+  pinMode(3, INPUT_PULLUP);
   m.init(); // module MAX7219
   m.setIntensity(1); // LED Intensity 0-15
+  Serial.begin(57600);
 }
 
 // Put extracted character on Display
@@ -130,6 +132,7 @@ void printCharWithShift(char c, int shift_speed){
   for (int i = 0; i < buffer[0]+1; i++) 
   {
     delay(shift_speed);
+	Serial.print(digitalRead(3) == HIGH ? "." : "|");
     m.shiftLeft(false, false);
   }
 }
