@@ -21,3 +21,8 @@ Since i hate IDE's with a healthy heart, I will now create a saner CLI based env
 * Add symlink to "MaxMatrix" under libraries, pointing to max7219/MaxMatrix
 * Since my vim setup likes .cpp files better than .ino files, the bulk of the demo is moved to demo.cpp, demo.h
 * And Bob's you uncle: You can do a ```make upload``` and see your reward scroll by .. Hooray!
+
+Pinout of the nano
+![Pinout of the nano](nano-pinout.png)
+
+Final result
