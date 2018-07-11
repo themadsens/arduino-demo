@@ -7,6 +7,7 @@ The following steps were performed to create this demo:
 * Look at an arduino tutorial fx. https://www.brainy-bits.com/scroll-text-using-the-max7219-led-dot-matrix/
 * Copy the text at the bottom and put it into a new "arduino-demo.ino" file
 * Open this file in the arduino IDE. Conveniently by double clicking it
+* Change the GPIO pin assignment. I use 11, 12 & 13 which is conveniently also available on the nano's ICSP header
 * Dowload the required library(ies).
   I made a "libraries" subfolder for this and ```git submodule add```'ed the required library there (MaxMatrix) like so:
    ```cd libraries; git submodule add https://github.com/riyas-org/max7219.git```
