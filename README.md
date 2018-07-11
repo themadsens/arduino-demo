@@ -26,3 +26,4 @@ Pinout of the nano
 ![Pinout of the nano](nano-pinout.png)
 
 Final result
+![Final result](IMG_1273.JPG)
